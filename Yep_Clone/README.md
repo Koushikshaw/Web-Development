@@ -7,10 +7,6 @@ This project is a clone of the Yelp website. It aims to replicate the user inter
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Known Issues](#known-issues)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -26,6 +22,8 @@ This project is a clone of the Yelp website. It aims to replicate the user inter
 
 - HTML5
 - CSS3
+
+### Author : Koushik Shaw
 
 ## Getting Started
 
