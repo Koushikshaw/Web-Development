@@ -23,11 +23,11 @@ This project is a clone of the Yelp website. It aims to replicate the user inter
 - HTML5
 - CSS3
 
-### Author : Koushik Shaw
-
 ## Getting Started
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/Koushikshaw/yelp_clone.git
+
+## Author : Koushik Shaw
