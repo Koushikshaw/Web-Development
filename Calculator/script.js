@@ -1,1 +1,1 @@
-console.log("Welcome to calculator programm")
+console.log("This is calculator.");
