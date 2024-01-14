@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+background-color: #F5EEE6;
+}
 .main{
     border: 1px solid rgba(219, 216, 216, 0.776);
     border-radius: 3px;
@@ -5,9 +9,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 2px;
-    max-width: 14rem;
+    padding: 3px;
+    max-width: 25rem;
     box-shadow: 5px 1px 20px grey;
+    background-color: #FFF8E3;
 
 }
 .keypad{
@@ -15,10 +20,11 @@
     grid-template-columns: repeat(4, 1fr); 
     gap: 2px;
     max-width: 500px; 
-    margin: auto;
+    margin: 2%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: #F3D7CA;
 }
 button{
     padding: 10px;
@@ -36,13 +42,34 @@ button{
     padding: 8px;
     background-color: #dcdada5a;
     text-align: center;
+    background-color: #E6A4B4;
+    border-radius: 3px;
 }
 .result{
     padding: 10% 20% 10% 50%;
 }
 .result{
-    padding: 15% 49% 10% 50%;
-    margin-bottom: 2px;
-    border-radius: 3px;
+    padding: 13% 45% 13% 45%;
+    margin: 2%;
+    border-radius: 4px;
     border: 1px solid #ccc;
+    max-width: 90%;
+}
+.result{
+    background-color:#F3D7CA ;
+}
+.footer{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: large;
+    position: absolute;
+    bottom: 0.4rem;
+    left: 44%;
+    text-align: center;
+}
+.header{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:xx-large;
+    position: absolute;
+    left: 45%;
+    text-align: center;
 }
