@@ -25,9 +25,6 @@ This project is a clone of the Yelp website. It aims to replicate the user inter
 
 ## Getting Started
 
-1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/Koushikshaw/Web-Development/tree/main/Yep_Clone
 
 ## Author : Koushik Shaw
