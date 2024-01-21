@@ -1,48 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Calculator</title>
-</head>
-<body>
-    <div class="header">
-        Calculator
-    </div>
+  </head>
+  <body>
+    <div class="header">Calculator</div>
     <div class="main">
-        <div class="display"> 
-            <div class="result" id="output"></div>
+      <div class="display">
+        <div class="result" id="output"></div>
+      </div>
+      <div class="keypad">
+        <div
+          class="buttons"
+          onclick="document.getElementById('output').innerHTML =' '"
+        >
+          <button>AC</button>
         </div>
-        <div class="keypad">
-            <div class="buttons" onclick="document.getElementById('output').innerHTML =' '"><button>AC</button></div>
-            <div class="buttons" onclick=""><button><i class="fa-solid fa-delete-left white-icon"></i></button></div>
-            <div class="buttons" onclick=""><button><i class="fa-solid fa-square-minus white-icon"></i></button></div>
-            <div class="buttons" onclick=""><button><i class="fa-solid fa-divide white-icon"></i></button></div>
-            <div class="buttons" onclick="document.getElementById('output').innerHTML = 7"><button><i class="fa-solid fa-7"></i></button></div>
-            <div class="buttons" onclick="document.getElementById('output').innerHTML = 8"><button><i class="fa-solid fa-8"></i></button></div>
-            <div class="buttons" onclick="document.getElementById('output').innerHTML = 9"><button><i class="fa-solid fa-9"></i></button></div>
-            <div class="buttons" onclick=""><button><i class="fa-solid fa-xmark"></i></button></div>
-            <div class="buttons" onclick="document.getElementById('output').innerHTML = 4"><button><i class="fa-solid fa-4"></i></button></div>
-            <div class="buttons" onclick="document.getElementById('output').innerHTML = 5"><button><i class="fa-solid fa-5"></i></button></div>
-            <div class="buttons" onclick="document.getElementById('output').innerHTML = 6"><button><i class="fa-solid fa-6"></i></button></div>
-            <div class="buttons" onclick=""><button><i class="fa-solid fa-minus"></i></button></div>
-            <div class="buttons" onclick="document.getElementById('output').innerHTML = 1"><button><i class="fa-solid fa-1"></i></button></div>
-            <div class="buttons" onclick="document.getElementById('output').innerHTML = 2"><button><i class="fa-solid fa-2"></i></button></div>
-            <div class="buttons" onclick="document.getElementById('output').innerHTML = 3"><button><i class="fa-solid fa-3"></i></button></div>
-            <div class="buttons" onclick=""><button><i class="fa-solid fa-plus"></i></button></div>
-            <div class="buttons" onlick=""><button><i class="fa-solid fa-percent"></i></button></div>
-            <div class="buttons" onclick="document.getElementById('output').innerHTML = 0"><button><i class="fa-solid fa-0"></i></button></div>
-            <div class="buttons" onclick="" ><button>.</button></div>
-            <div class="buttons" onclick=""><button><i class="fa-solid fa-equals"></i></button></div>
+        <div class="buttons" onclick="">
+          <button><i class="fa-solid fa-delete-left white-icon"></i></button>
         </div>
+        <div class="buttons" onclick="">
+          <button><i class="fa-solid fa-square-minus white-icon"></i></button>
+        </div>
+        <div class="buttons" onclick="">
+          <button><i class="fa-solid fa-divide white-icon"></i></button>
+        </div>
+        <div
+          class="buttons"
+          onclick="document.getElementById('output').innerHTML = 7"
+        >
+          <button><i class="fa-solid fa-7"></i></button>
+        </div>
+        <div
+          class="buttons"
+          onclick="document.getElementById('output').innerHTML = 8"
+        >
+          <button><i class="fa-solid fa-8"></i></button>
+        </div>
+        <div
+          class="buttons"
+          onclick="document.getElementById('output').innerHTML = 9"
+        >
+          <button><i class="fa-solid fa-9"></i></button>
+        </div>
+        <div class="buttons" onclick="">
+          <button><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div
+          class="buttons"
+          onclick="document.getElementById('output').innerHTML = 4"
+        >
+          <button><i class="fa-solid fa-4"></i></button>
+        </div>
+        <div
+          class="buttons"
+          onclick="document.getElementById('output').innerHTML = 5"
+        >
+          <button><i class="fa-solid fa-5"></i></button>
+        </div>
+        <div
+          class="buttons"
+          onclick="document.getElementById('output').innerHTML = 6"
+        >
+          <button><i class="fa-solid fa-6"></i></button>
+        </div>
+        <div class="buttons" onclick="">
+          <button><i class="fa-solid fa-minus"></i></button>
+        </div>
+        <div
+          class="buttons"
+          onclick="document.getElementById('output').innerHTML = 1"
+        >
+          <button><i class="fa-solid fa-1"></i></button>
+        </div>
+        <div
+          class="buttons"
+          onclick="document.getElementById('output').innerHTML = 2"
+        >
+          <button><i class="fa-solid fa-2"></i></button>
+        </div>
+        <div
+          class="buttons"
+          onclick="document.getElementById('output').innerHTML = 3"
+        >
+          <button><i class="fa-solid fa-3"></i></button>
+        </div>
+        <div class="buttons" onclick="">
+          <button><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="buttons" onlick="">
+          <button><i class="fa-solid fa-percent"></i></button>
+        </div>
+        <div
+          class="buttons"
+          onclick="document.getElementById('output').innerHTML = 0"
+        >
+          <button><i class="fa-solid fa-0"></i></button>
+        </div>
+        <div class="buttons" onclick=""><button>.</button></div>
+        <div class="buttons" onclick="">
+          <button><i class="fa-solid fa-equals"></i></button>
+        </div>
+      </div>
     </div>
     <div class="footer">
-        Designed by KOUSHIK with <i class="fa-solid fa-heart"></i>
-        <br>
-        ITJupiter <i class="fa-solid fa-face-smile-beam"></i><i class="fa-solid fa-heart"></i>
+      Designed by KOUSHIK with <i class="fa-solid fa-heart"></i>
+      <br />
+      ITJupiter <i class="fa-solid fa-face-smile-beam"></i
+      ><i class="fa-solid fa-heart"></i>
     </div>
-</body>
-<script src="script.js"></script>
-<script src="https://kit.fontawesome.com/8f75f301cb.js" crossorigin="anonymous"></script>
+  </body>
+  <script src="script.js"></script>
+  <script
+    src="https://kit.fontawesome.com/8f75f301cb.js"
+    crossorigin="anonymous"
+  ></script>
 </html>

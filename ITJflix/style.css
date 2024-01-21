@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Poppins:wght@700&family=Ubuntu&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    color: white;
+}
+body{
+    background-color: rgb(26, 26, 26);
+    font-family: 'Ubuntu','Sans-serif';
+}
+.navbar{
+    background-color: #29292E;
+}
+form{
+    background-color: rgba(74, 74, 74, 0);
+    border-radius: 0.3rem;
+    padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+    border: 1px solid rgb(69, 67, 67);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 0.5rem 2rem;
+    color: white;
+}
+button{
+    padding: 0.4rem 1rem 0.4rem 1rem;
+}
+i{
+    color: white;
+}
+input{
+    padding: 0.4rem 14rem 0.4rem 1rem;
+    border: 0;
+    background-color:rgba(74, 74, 74, 0);
+    color: white;
+}
+#search{
+    background-color: rgba(47, 47, 47, 0);
+    border: 0;
+}
+.logins{
+    display: flex;
+    font-size: 14px;
+    filter: contrast(200%);
+}
+.leftupper{
+    display: flex;
+    /* filter: contrast(60%); */
+}
+.register{
+    margin-right: 1.1rem;
+}
+input::after{
+    border: 0;
+}
+.tiles{
+    margin: 0.5em 1rem 1rem 1rem;
+    font-size: 14px;
+}
+.logo{
+    margin-right: 1rem;
+    filter: contrast(4em);
+}
+.register{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-color:rgba(255, 255, 255, 0) ;
+}
+.login{
+    background-color: #007BDC;
+    color: white;
+    border-color: #007BDC;
+    border-style: solid;
+    border-radius: 0.3rem;
+}
+.register:hover{
+    background-color: rgba(167, 167, 167, 0.153);
+    border-radius: 0.4rem;
+}
+.login:hover{
+    background-color: #0a8a9e;
+    border-color: #0a8a9e;
+}
+a:hover{
+    text-decoration: underline;
+}
+.heading{
+    border-left: 0.5rem solid #007BDC;
+    color: white;
+    /* font-family: 'Poppins'; */
+    padding: 1rem;
+    margin-bottom: 2.2rem;
+}
+.container{
+    margin: 2.8rem 2rem 2rem 2rem;
+}
+.profile{
+    border-radius: 5rem;
+    width: 8rem;
+    height: 8rem;
+}
+.top{
+    display: flex;
+}
+.desc{
+    padding: 2.3rem;
+    font-family: 'Poppins';
+
+}
+
+.badge:nth-child(3){
+    background-color: red;
+}
+.badge{
+    color: white;
+    background-color: green;
+    border-radius: 1.3rem;
+    padding: 0.6rem;
+    font-size: smaller;
+    border-bottom: 2px solid gold;
+    margin-bottom: 1rem;
+}
+.name{
+    padding-bottom: 0.4rem;
+}
+.middle{
+    padding: 0.4rem;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.cardn{
+
+    background-color: #29292E;
+    margin-right: 0.5rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow:6px 6px 6px 3px black;
+    line-height: 30px;
+}
+.desc2{
+    padding: 2rem;
+    background-color: #29292E;
+    box-shadow: 6px 6px 6px 3px black;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    line-height: 30px;
+    
+}
+.lower{
+    color: rgb(243, 189, 119);
+    padding-left: 0.3rem;
+    margin-right: 1rem;
+    border-top: 2px solid gold;
+    padding-top: 0.3rem;
+}
+.middle{
+    padding-bottom: 1rem;
+    text-shadow: 3px 3px 3px 3px black;
+}
+.members{
+    margin-bottom: 2rem;
+}
+a{
+    padding: 2rem;
+    text-decoration: none;
+    color: #007BDC;
+}
+.footup{
+    margin-bottom: 2rem;
+    margin-top: 6rem;
+    display:flex;
+    justify-content: space-between;
+}
+.footdown{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(128, 128, 128, 0.406);
+    padding: 2rem;
+    color: rgb(88, 89, 89);
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icon1{
+    margin-right: 2rem;
+}
